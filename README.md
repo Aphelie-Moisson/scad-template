@@ -32,3 +32,7 @@ It is also highly recommended to never change git tags once an object has been p
 
 If you define the environment variable `only`, the build script will only generate the stl file with that name.
 For example, `only=example ./build.sh` Will only generate `./build/example.stl` from `./src/example.scad`, even if other scad files exist in `./src`.
+
+## Crediting
+
+Please properly credit this template in your project's readme.
