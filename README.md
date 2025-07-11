@@ -27,6 +27,8 @@ You may then change those values at compile time by defining those environment v
 
 A version tag is generated from git tags and provided as a variable you can use in your scad files.
 You may engrave this string into your objects if you want to easily identify printed objects.
+For use in 3d printing, it is highly recommended to only print objects built from a clean git state on a properly tagged commit.
+It is also highly recommended to never change git tags once an object has been printed with it.
 
 If you define the environment variable `only`, the build script will only generate the stl file with that name.
 For example, `only=example ./build.sh` Will only generate `./build/example.stl` from `./src/example.scad`, even if other scad files exist in `./src`.
