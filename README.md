@@ -25,7 +25,7 @@ if you want to modify your objects at compile time, you may want to use environm
 Do this by adding lines to `default_env.env` with the default values of the environment variables you want to access in your scad files `var_name=default_value`.
 You may then change those values at compile time by defining those environment variables (eg: `var_name=value ./build.sh`)
 
-A version tag is generated from git tags and provided as a variable you can use in your scad files.
+A version tag is generated from git tags and provided as a variable (`version_tag`) you can use in your scad files.
 You may engrave this string into your objects if you want to easily identify printed objects.
 For use in 3d printing, it is highly recommended to only print objects built from a clean git state on a properly tagged commit.
 It is also highly recommended to never change git tags once an object has been printed with it.
